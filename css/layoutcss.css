@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "Pixel Chaos";
+  src: url('/fonts/Pixel Chaos.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Pixel Chaos.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Pixel Chaos.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Pixel Chaos.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/Pixel Chaos.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Pixel Chaos.otf')  format('otf'), /* Safari, Android, iOS */
+       url('/fonts/Pixel Chaos.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'GrutchShaded';
+  src: url('/fonts/GrutchShaded.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/GrutchShaded.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/GrutchShaded.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/GrutchShaded.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/GrutchShaded.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/GrutchShaded.otf')  format('otf'), /* Safari, Android, iOS */
+       url('/fonts/GrutchShaded.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Streetlight';
+  src: url('/fonts/Strelght.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Strelght.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Strelght.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Strelght.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/Strelght.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Strelght.otf')  format('otf'), /* Safari, Android, iOS */
+       url('/fonts/Strelght.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #7f90bf;
+}
+
+#active a {
+    color: #ff9300;
+    text-decoration: none;
+}
+
+#credits {
+    font-size: 12px;
+}
+
+.background {
+    background-color: #cecbb7;
+}
+
+#main-header {
+    font-family: "Pixel Chaos", Fallback, Impact;
+    text-align: center;
+    font-size: 100px;
+    color: #568b42; 
+}
+
+/* BEGIN - image with text for game screen captures */
+.image-container-right { 
+    width: 200px;
+    display: inline;
+    float: right; 
+    padding-left: 10px;
+}
+
+.image-container-left { 
+    width: 200px;
+    display: inline;
+    float: left;   
+    padding-right: 10px;
+}
+
+.image-text-right { 
+    text-align: right; 
+    font-size: 13px;
+    color: red;
+}
+
+.image-text-left { 
+    text-align: left; 
+    font-size: 13px;
+    color: red;
+}
+
+.image { 
+    width: 100%;
+}
+/* END - image with text for game screen captures */
+
+.home-header {
+    font-size: 25px;
+}
+#main { 
+    font-family: Arial;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    width: 800px;
+    position: relative;
+}
+
+.writeup {
+    width: 600px;
+    margin: 15px auto;
+    font-family: 'Streetlight', Arial;
+    font-size: 20px;
+}
+
+.writeup-header {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Streetlight', Arial;
+}
+
+#footer {
+    font-size: 15px;
+    text-align: center;
+    clear: both;
+    border-bottom: dotted 2px;
+    border-top: dotted 2px;
+    font-family: 'Streetlight', Arial;
+    width: 800px;
+}
+    
+.navbar {
+    border-bottom: dotted 3px;
+    border-top: dotted 3px;
+    text-align: center;
+    font-family: 'GrutchShaded', Fallback, Impact;
+    font-size: 45px;
+    padding: 0;
+    height: 80px;
+    width: 800px;
+    margin: auto;
+}
+    
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+    position: relative;
+    top: 10px;
+}
+
+.game-wrapper {
+    width: 750px; 
+    margin: 0 auto;
+    font-family: 'Streetlight', Arial;
+}
+
+.game-writeup{
+    margin: 15px auto;
+    padding: 2px;
+}
+
+.game-writeup-header {
+    font-size: 30px;
+    margin: 10px 0 5px 0;
+}
+
+.game-banner {
+    margin-top: 15px;
+    width: 750px;
+}
+
+.contact-wrapper {
+    text-align: center;
+    margin: 10px;
+}
+
+/* clear fix */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*
+html { 
+      background: url(/images/paper_by_francy84.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+*/
