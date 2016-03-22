@@ -1,34 +1,32 @@
 @font-face {
-  font-family: "Pixel Chaos";
-  src: url('/fonts/Pixel Chaos.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Pixel Chaos.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Pixel Chaos.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Pixel Chaos.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/Pixel Chaos.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/Pixel Chaos.otf')  format('otf'), /* Safari, Android, iOS */
-       url('/fonts/Pixel Chaos.svg#svgFontName') format('svg'); /* Legacy iOS */
+    
+	font-family: 'pixel_chaos-webfont';
+	src: url('/fonts/pixel_chaos-webfont.eot');
+	src: url('/fonts/pixel_chaos-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/pixel_chaos-webfont.woff2') format('woff2'),
+         url('/fonts/pixel_chaos-webfont.woff') format('woff'),
+         url('/fonts/pixel_chaos-webfont.ttf') format('truetype'),
+         url('/fonts/pixel_chaos-webfont.svg#grutchshadedregular') format('svg');
 }
 
 @font-face {
-  font-family: 'GrutchShaded';
-  src: url('/fonts/GrutchShaded.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/GrutchShaded.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/GrutchShaded.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/GrutchShaded.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/GrutchShaded.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/GrutchShaded.otf')  format('otf'), /* Safari, Android, iOS */
-       url('/fonts/GrutchShaded.svg#svgFontName') format('svg'); /* Legacy iOS */
+    
+	font-family: 'grutchshadedregular';
+    src: url('/fonts/grutchshaded-webfont.eot');
+    src: url('/fonts/grutchshaded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/grutchshaded-webfont.woff') format('woff'),
+         url('/fonts/grutchshaded-webfont.ttf') format('truetype'),
+         url('/fonts/grutchshaded-webfont.svg#grutchshadedregular') format('svg');
 }
 
 @font-face {
-  font-family: 'Streetlight';
-  src: url('/fonts/Strelght.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/Strelght.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/Strelght.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/fonts/Strelght.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/Strelght.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/Strelght.otf')  format('otf'), /* Safari, Android, iOS */
-       url('/fonts/Strelght.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-family: 'strelght-webfont';
+    src: url('/fonts/strelght-webfont.eot');
+    src: url('/fonts/strelght-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/strelght-webfont.woff2') format('woff2'),
+         url('/fonts/strelght-webfont.woff') format('woff'),
+         url('/fonts/strelght-webfont.ttf') format('truetype'),
+         url('/fonts/strelght-webfont.svg#grutchshadedregular') format('svg');
 }
 
 * {
@@ -62,7 +60,7 @@ a:hover {
 }
 
 #main-header {
-    font-family: "Pixel Chaos", Fallback, Impact;
+    font-family: 'pixel_chaos-webfont', Fallback, Impact;
     text-align: center;
     font-size: 100px;
     color: #568b42; 
@@ -117,14 +115,14 @@ a:hover {
 .writeup {
     width: 600px;
     margin: 15px auto;
-    font-family: 'Streetlight', Arial;
+    font-family: 'strelght-webfont', Arial;
     font-size: 20px;
 }
 
 .writeup-header {
     font-size: 20px;
     text-align: center;
-    font-family: 'Streetlight', Arial;
+    font-family: 'strelght-webfont', Arial;
 }
 
 #footer {
@@ -133,7 +131,7 @@ a:hover {
     clear: both;
     border-bottom: dotted 2px;
     border-top: dotted 2px;
-    font-family: 'Streetlight', Arial;
+    font-family: 'strelght-webfont', Arial;
     width: 800px;
 }
     
@@ -141,7 +139,7 @@ a:hover {
     border-bottom: dotted 3px;
     border-top: dotted 3px;
     text-align: center;
-    font-family: 'GrutchShaded', Fallback, Impact;
+    font-family: 'grutchshadedregular', Fallback, Impact;
     font-size: 45px;
     padding: 0;
     height: 80px;
@@ -160,7 +158,7 @@ a:hover {
 .game-wrapper {
     width: 750px; 
     margin: 0 auto;
-    font-family: 'Streetlight', Arial;
+    font-family: 'strelght-webfont', Arial;
 }
 
 .game-writeup{
