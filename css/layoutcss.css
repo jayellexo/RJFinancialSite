@@ -64,6 +64,8 @@ a:hover {
     text-align: center;
     font-size: 100px;
     color: #568b42; 
+    width: 800px;
+    margin: 0 auto;
 }
 
 /* BEGIN - image with text for game screen captures */
