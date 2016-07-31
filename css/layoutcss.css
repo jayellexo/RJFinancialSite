@@ -1,5 +1,4 @@
-@font-face {
-    
+@font-face { 
 	font-family: 'pixel_chaos-webfont';
 	src: url('/fonts/pixel_chaos-webfont.eot');
 	src: url('/fonts/pixel_chaos-webfont.eot?#iefix') format('embedded-opentype'),
@@ -10,8 +9,7 @@
 }
 
 @font-face {
-    
-	font-family: 'grutchshadedregular';
+	font-family: 'grutchshaded-webfont';
     src: url('/fonts/grutchshaded-webfont.eot');
     src: url('/fonts/grutchshaded-webfont.eot?#iefix') format('embedded-opentype'),
          url('/fonts/grutchshaded-webfont.woff') format('woff'),
@@ -141,7 +139,7 @@ a:hover {
     border-bottom: dotted 3px;
     border-top: dotted 3px;
     text-align: center;
-    font-family: 'grutchshadedregular', Fallback, Impact;
+    font-family: 'GrutchShaded-webfont', Impact;
     font-size: 45px;
     padding: 0;
     height: 80px;
